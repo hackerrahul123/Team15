@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+            gap: 10px;
+           
+        }
+        #container>div {
+            margin: auto;
+            padding: 20px 20px;
+        }
+        #container>div>img {
+           display: block;
+           margin: auto;
+
+        }
+        #container>div>h2 {
+          line-height: 15px;
+          font-size: 30px;
+          color: #222221;
+          font-weight: 20px;
+          
+        }
+        #container>div>h2:nth-child(3) {
+            color: #666667;
+        }
+        #head{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+        }
+        #head>div>h1{
+         font-size: 40px;
+            color: #222221;
+        }
+        #head>div>h3{
+            font-size: 30px;
+            color: #666666;
+            text-decoration-line: line-through;
+
+        }
+        #head>div>h2{
+            font-size: 30px;
+            color: #05ac65;
+            
+        }
+        #box{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;  
+        }
+        #box>div>h1{
+            font-size: 40px;
+            color: #222221;
+        }
+        #box>div>h3 {
+            font-size: 30px;
+            color: #666666;
+            text-decoration-line: line-through;
+
+        }
+        #box>div>h2 {
+            font-size: 30px;
+            color: #05ac65;
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <div id="container">
+         <div>
+             <img src="https://m.media-amazon.com/images/I/61duDCjvylL._AC_UL320_.jpg">
+             <h2>Pause</h2>
+             <h2>Mens Cotton Long Sleeves Shrug</h2>
+             <div id="head">
+                <div>
+                    <h1>₹ 359</h1>
+                </div>
+                <div>
+                 <h3>₹ 1,499</h3>
+                </div>
+                <div>
+                 <h2>-76%</h2>
+                </div>
+             
+             </div>
+         </div>
+         <div>
+            <img src="https://m.media-amazon.com/images/I/4194zlfjN3L._AC_UL320_.jpg">
+            <h2>JUBINATION</h2>
+            <h2>Men Wool Sleeveless Sweater Pack Of 1</h2>
+            <div id="box">
+               <div>
+                   <h1>₹ 359</h1>
+               </div>
+               <div>
+                <h3>₹ 1,499</h3>
+               </div>
+               <div>
+                <h2>-47%</h2>
+               </div>
+            
+            </div>
+         </div>   
+    </div>
+</body>
+</html>
