@@ -65,12 +65,12 @@
             transition: .5s;
         }
         .txt_field input:focus ~ Label,
-        .txt_field input:focus ~ Label{
+        .txt_field input:valid ~ Label{
             top: -5px;
             color: #2691d9;
         }
-        .txt_field input : focus ~ span::before,
-        .txt_field input : valid ~ span::before{
+        .txt_field input:focus ~ span::before,
+        .txt_field input:valid ~ span::before{
             width:100%
         }
         .pass{
